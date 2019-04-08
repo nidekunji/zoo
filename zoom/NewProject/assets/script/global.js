@@ -1,0 +1,4 @@
+
+window.Global = {
+    userData: null,
+};
