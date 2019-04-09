@@ -7,7 +7,11 @@
 cc.Class({
     extends: cc.Component,
     properties: {
-       
+        curNum: 0,
+        curTotal: 3,
+        pageTeample: cc.Prefab,
+        target: cc.PageView,
+        label: cc.Label
     },
 
     onLoad () {
@@ -18,7 +22,7 @@ cc.Class({
 
     },
     onStart() {
-        cc.director.loadScene("game", onSceneLaunched);
+        cc.director.loadScene("game", tools.initData());
     },
     onAbout() {
         

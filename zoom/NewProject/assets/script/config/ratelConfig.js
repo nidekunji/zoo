@@ -1,3 +1,8 @@
+/**
+ * @author kunji
+ * @description 平头哥配置
+ * @time 2019/4/8
+ */
 let ratelConfig = {
     0:{
         name:'ratel',
@@ -6,7 +11,7 @@ let ratelConfig = {
         blood:50,
         defense:1,
         food:['water','grass','meat'],
-        belief: '生死看淡，不服就干',
+        belief: ['生死看淡，不服就干','平头白发银披风，非洲大地我最凶','一生都在征战中，唯独不敢去广东'],
         fightReason:'劳资今天就想打架',
         win: '还不够塞牙',
         lose:'二十年后又是一条好汉',
